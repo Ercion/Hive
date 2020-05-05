@@ -1,11 +1,15 @@
 # Hive
 This repository contains useful Hive example
 
+![Image of Hive](https://hive.apache.org/images/hive_logo_medium.jpg)
+
+
 
 load data inpath command is use to load data into hive table. 'LOCAL' signifies that the input file is on the local file system. If 'LOCAL' is omitted then it looks for the file in HDFS.
 
 load data inpath '/directory-path/file.csv' into <mytable>; 
 load data local inpath '/local-directory-path/file.csv' into <mytable>;
+
 LOCATION keyword allow to points to any HDFS location for its storage, rather than being stored in a folder specified by the configuration property hive.metastore.warehouse.dir.
 
 In other words, with specified LOCATION '/your-path/', Hive does not use a default location for this table. This comes in handy if you already have data generated.

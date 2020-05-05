@@ -15,6 +15,7 @@ Remember, LOCATION can be specify on EXTERNAL tables only. For regular tables, d
 To summarize, load data inpath tell hive where to look for input files and LOCATION keyword tells hive where to save output files on HDFS.
 
 
+<br>
 
 <b>Option 1: Internal table</b>
 

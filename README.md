@@ -26,6 +26,8 @@ number double);
 load data inpath '/directory-path/file.csv' into <mytable>; 
 This command will remove content at source directory and create a internal table
 
+<br>
+
 <b>Option 2: External table</b>
 
  create table <mytable>

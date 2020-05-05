@@ -46,6 +46,7 @@ When you drop an external table, it only drops the meta data of HIVE table. Data
 <b>
 RUN HIVE QUERY
 </b>
+<br>
 One way to use Hive inside a script is to have the Hive shell execute an HQL file. This is accomplished with the file option. 
 
 hive -f my_script.hql

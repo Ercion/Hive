@@ -16,7 +16,7 @@ To summarize, load data inpath tell hive where to look for input files and LOCAT
 
 
 
-Option 1: Internal table
+<b>Option 1: Internal table</b>
 
 create table <mytable> 
 (name string,
@@ -25,7 +25,7 @@ number double);
 load data inpath '/directory-path/file.csv' into <mytable>; 
 This command will remove content at source directory and create a internal table
 
-Option 2: External table
+<b>Option 2: External table</b>
 
  create table <mytable>
  (name string,

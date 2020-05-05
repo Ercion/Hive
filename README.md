@@ -42,3 +42,11 @@ location '/directory-path/file.csv';
 Create external table and copy the data into table. Now data won't be moved from source. You can drop external table but still source data is available.
 
 When you drop an external table, it only drops the meta data of HIVE table. Data still exists at HDFS file location.
+
+<b>
+RUN HIVE QUERY
+</b>
+One way to use Hive inside a script is to have the Hive shell execute an HQL file. This is accomplished with the file option. 
+
+hive -f my_script.hql
+

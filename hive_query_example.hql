@@ -1,6 +1,8 @@
 -- run hql file --  hive -f hive_query.hql
 --CREATE TABLE
 
+
+
 CREATE EXTERNAL TABLE IF NOT EXISTS geolocation_test(
 truckid STRING,
 driverid STRING,
